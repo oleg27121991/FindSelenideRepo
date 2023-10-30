@@ -10,6 +10,10 @@ repositories {
     mavenCentral()
 }
 
+compileTestJava {
+    options.encoding = "UTF-8"
+}
+
 def     slf4jVersion = "2.0.9",
         junitVersion = "5.10.0",
         selenideVersion = "6.19.1"
