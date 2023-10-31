@@ -1,18 +1,13 @@
 package tests;
 
 import base.BaseTest;
-import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.impl.JavaScript;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import pages.GitHubMainPage;
 import pages.GitHubSearchPage;
 import pages.RepositoriesPage;
 import pages.WikiPage;
 
-import static com.codeborne.selenide.Selenide.$;
 
 public class SelenideGitHubWikiTest extends BaseTest {
     private final static String GITHUB_URL = "https://github.com/";
