@@ -11,7 +11,6 @@ public class BaseTest {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.browserVersion = "118";
-        Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 4000;
     }
 
